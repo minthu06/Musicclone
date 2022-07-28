@@ -1,0 +1,125 @@
+.color-grey{
+  color: #818181;
+}
+.sidebar {
+  background-color: #000;
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+  border-right: 2px solid #1b1b1b;
+}
+
+/* Style sidebar links */
+.sidebar a{
+  padding: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  margin: 8px 0  ;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover, .btn-playlist:hover {
+  color: #f1f1f1;
+}
+.sidebar .Nav-child{
+  border-bottom: 2px solid #1b1b1b;
+  text-align: left;
+  margin: 8px 25px  ;
+}
+
+.sidebar .Nav-child .nav-member {
+  padding-bottom: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.icon-down {
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+.btn-playlist, .btn-user {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-search  {
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 3px;
+  margin-left: 10px;
+  text-align: left;
+}
+.btn-search .img-search {
+  border-radius: 100%;
+}
+.input-search{
+  border: 0;
+  /* color: #000; */
+  height: 35px;
+  text-overflow: ellipsis;
+  width: auto;
+  font-size: 0.875rem
+
+}
+.user {
+  position: fixed;
+  z-index: 1  ;
+  width: calc(100% - 254px);
+  top: 0;
+  right: 0;
+  padding: 16px 6px;
+  float: right;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+.user .user-account{
+  float: right;
+  display: flex;
+  align-items: stretch;
+  padding-right:  25px;
+  cursor: pointer;
+  background-color: #000;
+  border-radius: 20px ;
+}
+.user .search-bar {
+  float: left;
+  display: flex;
+  align-items: stretch;
+  margin-left: 40px;
+  background-color: #fff;
+  border-radius: 500px;
+  width: 30%;
+
+}
+.playlist-child{
+  font-size: 15px;
+  padding: 6px 3px;
+  margin-left: 25px;
+}
+/* Style the main content */
+.main {
+  font-family: sans-serif;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 25px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/* footer */

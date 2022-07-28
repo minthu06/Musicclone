@@ -1,0 +1,70 @@
+.float{
+  float: left;
+}
+
+.Music-Favor{
+  background-color: rgb(0 0 0);
+  background-image: linear-gradient(rgb(39, 74, 134), rgba(1, 7, 19, 0.94));
+  padding-bottom: 78px;
+  float: right;
+  width: calc(100% - 242px);
+  overflow: hidden;
+  min-height: auto;
+  z-index: 1000;
+  color: aliceblue;
+
+}
+
+.Music-Favor .header-favor{
+  padding: 72px 32px 24px 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Music-Favor .img-favor {
+  width: 220px;
+  margin-right: 24px;
+  box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+}
+
+.Music-Favor .header-favor .playlist{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.Music-Favor .header-favor .Song-favor{
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.Music-Favor .list-favor{
+  display: flex;
+  background-color: rgb(0 0 0);
+  background-image: linear-gradient(rgb(18, 39, 74), rgba(0, 0, 0, 0.94));
+  padding-top: 3em;
+  padding-bottom: 6rem;
+  justify-content: center;
+}
+
+.Music-Favor .list-favor-child{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 3em;
+  border-bottom: 1px solid rgba(37, 36, 36, 0.942);
+}
+
+.Music-Favor .list-favor .btn-favor-search {
+  margin-top: 16px;
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.Music-Favor .list-favor .icon-music {
+  font-size: 3em !important;
+}

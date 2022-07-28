@@ -1,0 +1,102 @@
+.pd-25px{
+  width: -webkit-fill-available;
+  padding: 14px 25px;
+}
+.text {
+  text-align: left;
+  text-decoration: none;
+}
+
+.name{
+  color: white;
+  float: left;
+}
+
+.see-all{
+  color: #818181;
+  float: right !important;
+}
+.Slide-container{
+  padding-top: 72px;
+  /* position: absolute; */
+  padding-bottom: 6rem;
+  float: right;
+  right: 0;
+  width: calc(100% - 242px);
+  overflow: hidden;
+  min-height: auto;
+  background-color:#100f0f;
+}
+
+.topic {
+  overflow: hidden;
+}
+
+.topic-name {
+  padding: 8px 0;
+  overflow: hidden;
+}
+.topic-list {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.topic-member {
+  padding: 17px;
+  background-color: #191919 ;
+  border-radius: 6px;
+  margin: 10px 15px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.member-img {
+  width: 153px;
+  border-radius: 15px;
+}
+
+.member-name {
+  margin-top: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  overflow: hidden;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.member-direction {
+  font-size: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+}
+.img-album{
+  width: 140px;
+}
+
+.song-footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+.rhap_container {
+  background-color: #181818  !important;
+
+}
+
+.rhap_time, .rhap_current-time {
+  color: #fff !important;
+}
+
+.rhap_progress-container{
+  justify-content: space-around !important;
+}
+.rhap_progress-bar {
+  width: 50%;
+    height: 3px;
+}
